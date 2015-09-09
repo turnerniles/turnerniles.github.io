@@ -13,12 +13,16 @@
 
 		setTimeout(function(){
 			$('#onedown').css({
-
 			        "-webkit-animation-name":"rotatearrow",
 			        "-webkit-animation-duration":"0.8s",
 			        "-webkit-animation-iteration-count":"1",
 			        "-webkit-animation-fill-mode" : "forwards",
 
 						});}, 1000);
+
+		$('#oneup').on('click',function(){
+		$('html, body').animate({scrollTop:0},'50');
+		})
+
 	});
 })(jQuery);
