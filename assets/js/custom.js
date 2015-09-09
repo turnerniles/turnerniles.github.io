@@ -8,7 +8,7 @@
 		jQuery("a[data-rel^='prettyPhoto']").prettyPhoto({animationSpeed:'slow',theme:'light_square',slideshow:false,overlay_gallery: false,social_tools:false,deeplinking:false});
 
 		$('#onedown').on('click',function(){
-		$('html, body').animate({scrollTop:700},'50');
+		$('html, body').animate({scrollTop:701},'50');
 		})
 
 		setTimeout(function(){
