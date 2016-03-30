@@ -4,6 +4,8 @@
     <meta charset="utf-8">
     <title></title>
     <link href="assets/css/nileswebsite.css" rel="stylesheet">
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/css/effects.css" rel="stylesheet">
 
   </head>
   <body>
@@ -13,14 +15,63 @@
       <div class = "last-name">Turner</div>
     </div>
     <div class = "typed-text">Full Stack Web Developer</div>
-    <p><button id="load-images">View Portfolio</button></p>
+    <div class = "button-container">
+      <div class = "left-piece"> </div>
+      <div class = "right-piece"> </div>
+      <button id="load-images">View Portfolio</button>
+    </div>
 
     <div id="container"><div>
-
+      <div class="grid">
+        <div class="grid-sizer"></div>
+        </div>
+      </div>
     </div>
+
+    <div class="row images-grid">
+
+      <div class = "col-sm-4 bs-grid-item">
+        <a href = "" target="_blank">
+          <div class="image-background"></div>
+          <div class = "port-text">Wiki Demo</div>
+          <img src="assets/img/portfolio/jeffreyrudes.png" class="portfolio-image" alt="">
+        </a>
+      </div>
+      <div class = "col-sm-4 bs-grid-item">
+        <a href = "" target="_blank">
+          <div class="image-background"></div>
+          <div class = "port-text">Carson Street</div>
+          <img src="assets/img/portfolio/carsonstreet.png" class="portfolio-image" alt="">
+        </a>
+      </div>
+      <div class = "col-sm-4 bs-grid-item">
+        <a href = "" target="_blank">
+          <div class="image-background"></div>
+          <div class = "port-text">Cheapest on Gilt</div>
+          <img src="assets/img/portfolio/cheapestongilt.png" class="portfolio-image" alt="">
+        </a>
+      </div>
+      <div class = "col-sm-4 bs-grid-item">
+        <a href = "" target="_blank">
+          <div class="image-background"></div>
+          <div class = "port-text">Centro39</div>
+          <img src="assets/img/portfolio/centro39.png" class="portfolio-image" alt="">
+        </a>
+      </div>
+      <div class = "col-sm-4 bs-grid-item">
+        <a href = "" target="_blank">
+          <div class="image-background"></div>
+          <div class = "port-text">Tic Tac Toe</div>
+          <img src="assets/img/portfolio/tictactoe.png" class="portfolio-image" alt="">
+        </a>
+      </div>
+    </div>
+
+
     <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-    <script src="http://masonry.desandro.com/masonry.pkgd.js"></script>
     <script src="http://imagesloaded.desandro.com/imagesloaded.pkgd.js"></script>
+    <!-- <script src="jquery.masonry.ordered.js"></script>
+    <script src="assets/js/jquery.masonry.ordered.js"></script> -->
     <script src="assets/js/niles.js"></script>
 
   </body>
