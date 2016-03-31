@@ -183,12 +183,10 @@ color: black
 }
 
 .bs-grid-item:hover img {
-  transform: scale(1.1);
 	-moz-transform: scale(1.1);
 	-webkit-transform: scale(1.1);
 	-o-transform: scale(1.1);
-	-webkit-filter: grayscale(100%);
-  transition: 1s all ease;
+  transition: .5s all ease;
 }
 
 
