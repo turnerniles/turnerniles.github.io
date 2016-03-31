@@ -14,9 +14,7 @@ $( function() {
           .parents(item_selector)
           .show();
     });
-
   });
-
 });
 
 split = function() {
