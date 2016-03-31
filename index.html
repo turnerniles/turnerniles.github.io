@@ -1,216 +1,119 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="icon" href="assets/img/favicon.ico">
-
-    <title>Niles Turner</title>
-
-    <!-- Bootstrap core CSS -->
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-MfvZlkHCEqatNoGiOXveE8FIwMzZg4W85qfrfIFBfYc= sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
-
-    <!-- Custom styles for this template -->
-    <link href="assets/css/ionicons.min.css" rel="stylesheet">
+    <title></title>
     <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/css/effects.css" rel="stylesheet">
 
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
-
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
   </head>
-
   <body>
 
-    <div id="h">
+    <div class = "name">
+      <div class = "first-name">Niles</div>
+      <div class = "last-name">Turner</div>
+    </div>
+    <div class = "typed-text">Full Stack Web Developer</div>
+    <div class = "button-container">
+      <div class = "left-piece"> </div>
+      <div class = "right-piece"> </div>
+      <button id="load-images">View Portfolio</button>
+    </div>
 
-      <div class="container centered">
-        <div class="row mt">
-            <h1>Hello, my name is <b>Niles Turner</b>.<br/>I create for the web.</h1>
-        </div><!--/row-->
+    <div id="container"><div>
+      <div class="grid">
+        <div class="grid-sizer"></div>
+        </div>
+      </div>
+    </div>
 
-        <div class="row mt centered">
+    <div class="row images-grid">
 
-          <div  id='thingy' class="col-sm-3 col-sm-offset-3">
-            <i class="ion-ios7-monitor-outline"></i>
-            <h3>Web Design</h3>
-          </div><!--/col-md-4-->
-
-
-          <div class="col-sm-3">
-            <i class="ion-ios7-browsers-outline"></i>
-            <h3>Web Development</h3>
-          </div><!--/col-md-4-->
-
-        </div class="row mt"><!--/row-->
-      </div><!--/container-->
-
-
-    </div><!--H-->
-
-    <div id ='onedown' class="arrow-down"></div>
+      <div class = "col-sm-4 bs-grid-item">
+        <a href = "https://www.billyreid.com" target="_blank">
+          <img src="assets/img/portfolio/billyreid.png" class="portfolio-image" alt="">
+          <div class = "port-text">Billy Reid</div>
+          <div class="image-background"></div>
+        </a>
+      </div>
+      <div class = "col-sm-4 bs-grid-item">
+          <img src="assets/img/portfolio/jeffreyrudes.png" class="portfolio-image" alt="">
+          <a href = "https://www.jeffreyrudes.com" target="_blank">
+            <div class = "port-text">Jeffrey Rudes</div>
+            <div class="image-background"></div>
+          </a>
+      </div>
+      <div class = "col-sm-4 bs-grid-item">
+        <a href = "https://www.centro39.com" target="_blank">
+          <img src="assets/img/portfolio/centro39.png" class="portfolio-image" alt="">
+          <div class = "port-text">Centro39</div>
+          <div class="image-background"></div>
+        </a>
+      </div>
+      <div class = "col-sm-4 bs-grid-item">
+        <a href = "https://www.girlsongreenwich.com" target="_blank">
+          <img src="assets/img/portfolio/girlsongreenwich.png" class="portfolio-image" alt="">
+          <div class = "port-text">Girls on Greenwich</div>
+          <div class="image-background"></div>
+        </a>
+      </div>
+      <div class = "col-sm-4 bs-grid-item">
+        <a href = "http://www.deveauxnewyork.com" target="_blank">
+          <img src="assets/img/portfolio/deveauxnewyork.png" class="portfolio-image" alt="">
+          <div class = "port-text">Deveaux New York</div>
+          <div class="image-background"></div>
+        </a>
+      </div>
+      <div class = "col-sm-4 bs-grid-item">
+        <a href = "https://www.carson-street.com" target="_blank">
+          <img src="assets/img/portfolio/carsonstreet.png" class="portfolio-image" alt="">
+          <div class = "port-text">Carson Street</div>
+          <div class="image-background"></div>
+        </a>
+      </div>
+      <div class = "col-sm-4 bs-grid-item">
+        <a href = "http://cheapestongilt.herokuapp.com" target="_blank">
+          <img src="assets/img/portfolio/cheapestongilt.png" class="portfolio-image" alt="">
+          <div class="image-background"></div>
+          <div class = "port-text">Cheapest on Gilt</div>
+        </a>
+      </div>
+      <div class = "col-sm-4 bs-grid-item">
+        <a href = "http://buzzclicker.herokuapp.com" target="_blank">
+          <img src="assets/img/portfolio/buzzclicker" class="portfolio-image" alt="">
+          <div class="image-background"></div>
+          <div class = "port-text">Buzz Clicker</div>
+        </a>
+      </div>
+      <div class = "col-sm-4 bs-grid-item">
+        <a href = "http://www.onenewsstand.com/" target="_blank">
+          <img src="assets/img/portfolio/onenewsstand.png" class="portfolio-image" alt="">
+          <div class="image-background"></div>
+          <div class = "port-text">One News Stand</div>
+        </a>
+      </div>
+      <div class = "col-sm-4 bs-grid-item">
+        <a href = "http://wiki-demo.herokuapp.com/" target="_blank">
+          <img src="assets/img/portfolio/demowiki.png" class="portfolio-image" alt="">
+          <div class="image-background"></div>
+          <div class = "port-text">Wiki Demo</div>
+        </a>
+      </div>
+      <div class = "col-sm-4 bs-grid-item">
+        <a href = "http://www.turnerniles.com/tictactoe/" target="_blank">
+          <img src="assets/img/portfolio/tictactoe.png" class="portfolio-image" alt="">
+          <div class="image-background"></div>
+          <div class = "port-text">Tic Tac Toe</div>
+        </a>
+      </div>
 
     </div>
 
-    <div id="g" class='pt2'>
-        <div class="centered">
-          <h2 class='h2works'>Check some of my latest works.</h2>
-        </div>
 
-            <div class="portfolio-item col-sm-3">
-              <div class="he-wrap tpl4">
-              <img src="assets/img/portfolio/cheapestongilt.png" class="img-responsive" alt="">
-                <div class="he-view">
-                  <div class="bg a0" data-animate="fadeIn">
-                    <h3 class="a1" data-animate="fadeInDown">Cheapest On Gilt</h3>
-                    <a href="https://cheapestongilt.herokuapp.com/" class="dmbutton a2" data-animate="fadeInUp"><i class="ion-link"></i></a>
-                    <a href="https://github.com/turnerniles/CheapestOnGilt" class="dmbutton a2" data-animate="fadeInUp"><i class="ion-social-github"></i></a>
-                   </div><!-- he bg -->
-                </div><!-- he view -->
-              </div><!-- he wrap -->
-            </div><!-- end col-12 -->
-
-            <div class="portfolio-item col-sm-3">
-              <div class="he-wrap tpl4">
-              <img src="assets/img/portfolio/onenewsstand.png" class="img-responsive" alt="">
-                <div class="he-view">
-                  <div class="bg a0" data-animate="fadeIn">
-                    <h3 class="a1" data-animate="fadeInDown">One News Stand</h3>
-                    <a href="http://www.onenewsstand.com/" class="dmbutton a2" data-animate="fadeInUp"><i class="ion-link"></i></a>
-                    <a href="https://github.com/jcjordn5/onenewsstand" class="dmbutton a2" data-animate="fadeInUp"><i class="ion-social-github"></i></a>
-                  </div><!-- he bg -->
-                </div><!-- he view -->
-              </div><!-- he wrap -->
-            </div><!-- end col-12 -->
-
-            <div class="portfolio-item col-sm-3">
-              <div class="he-wrap tpl4">
-              <img src="assets/img/portfolio/wikidemo.png" class="img-responsive" alt="">
-                <div class="he-view">
-                  <div class="bg a0" data-animate="fadeIn">
-                    <h3 class="a1" data-animate="fadeInDown">Wikipedia Clone</h3>
-                    <a href="https://wiki-demo.herokuapp.com" class="dmbutton a2" data-animate="fadeInUp"><i class="ion-link"></i></a>
-                    <a href="https://github.com/turnerniles/wiki" class="dmbutton a2" data-animate="fadeInUp"><i class="ion-social-github"></i></a>
-                  </div><!-- he bg -->
-                </div><!-- he view -->
-              </div><!-- he wrap -->
-            </div><!-- end col-12 -->
-
-            <div class="portfolio-item col-sm-3">
-              <div class="he-wrap tpl4">
-              <img src="assets/img/portfolio/tictactoe.png" class="img-responsive" alt="">
-                <div class="he-view">
-                  <div class="bg a0" data-animate="fadeIn">
-                    <h3 class="a1" data-animate="fadeInDown">Tic Tac Toe</h3>
-                    <a href="http://turnerniles.com/tictactoe/" class="dmbutton a2" data-animate="fadeInUp"><i class="ion-link"></i></a>
-                    <a href="https://github.com/turnerniles/tictactoe" class="dmbutton a2" data-animate="fadeInUp"><i class="ion-social-github"></i></a>
-                  </div><!-- he bg -->
-                </div><!-- he view -->
-              </div><!-- he wrap -->
-            </div><!-- end col-12 -->
-            </div>
-
-
-    <div id="sep">
-      <div class="container">
-        <div class="row centered">
-          <div class="col-md-8 col-md-offset-2">
-
-            <h1 class='contact_header'>Contact Me</h1>
-
-            <div class='contact'>
-            <p>
-              Niles Turner
-            </p>
-            <p>
-              turnerniles@gmail.com
-            </p>
-            <p>
-              (617)-797-2270
-            </p>
-            <p>
-            New York, NY, USA
-            </p>
-          </div>
-            <!-- <h3 class="mb">Lorem Ipsum is simply dummy text<br/>of the printing and typesetting industry.</h3> -->
-          </br>
-            <!-- <button class="btn btn-conf btn-clear">Contact Me</button> -->
-            <div id="s">
-                    <a href="https://github.com/turnerniles"><i class="ion-social-github"></i></a>
-                    <a href="https://www.linkedin.com/in/turnerniles"><i class="ion-social-linkedin"></i></a>
-                    <a href="https://www.facebook.com/turnerniles"><i class="ion-social-facebook"></i></a>
-                    <a href="https://twitter.com/turnerniles"><i class="ion-social-twitter"></i></a>
-              </div><!--/container-->
-              <div id ='oneup' class="arrow-up"></div>
-            </div><!--/.s-->
-          </div>
-        </div><!--/row-->
-      </div><!--/container-->
-    </div><!--/.sep-->
-
-    <script>
-// Portfolio
-(function($) {
-
-    function getColumnNumber() {
-      var winWidth = $(window).width(),
-      columnNumber = 1;
-
-      if (winWidth > 1200) {
-        columnNumber = 5;
-      } else if (winWidth > 950) {
-        columnNumber = 4;
-      } else if (winWidth > 600) {
-        columnNumber = 3;
-      } else if (winWidth > 400) {
-        columnNumber = 2;
-      } else if (winWidth > 250) {
-        columnNumber = 1;
-      }
-        return columnNumber;
-      }
-
-      function setColumns() {
-        var winWidth = $(window).width(),
-        columnNumber = getColumnNumber(),
-        itemWidth = Math.floor(winWidth / columnNumber);
-
-    $(window).on('resize', function () {
-    setColumns();
-  });
-})(jQuery);
-</script>
-
-    <!-- <div id="f">
-      <div class="container">
-        <div class="row centered">
-          <div class="col-md-8 col-md-offset-2">
-            <a href="https://github.com/turnerniles"><i class="ion-social-github"></i></a>
-            <a href="https://www.linkedin.com/in/turnerniles"><i class="ion-social-linkedin"></i></a>
-            <a href="https://www.facebook.com/turnerniles"><i class="ion-social-facebook"></i></a>
-            <a href="https://twitter.com/turnerniles"><i class="ion-social-twitter"></i></a>
-          </div>
-        </div>
-      </div>
-    </div> -->
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha256-Sk3nkD6mLTMOF0EOpNtsIry+s1CsaqQC1rVLTAy+0yc= sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
-    <script src="assets/js/retina-1.1.0.js"></script>
-    <script src="assets/js/jquery.hoverdir.js"></script>
-    <script src="assets/js/jquery.hoverex.min.js"></script>
-    <script src="assets/js/jquery.prettyPhoto.js"></script>
-    <script src="assets/js/custom.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="http://imagesloaded.desandro.com/imagesloaded.pkgd.js"></script>
+    <script src="assets/js/script.js"></script>
 
   </body>
 </html>
