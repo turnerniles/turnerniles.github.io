@@ -1,7 +1,16 @@
 $( function() {
 
+  $('#back-to-home').click( function() {
+    console.log("hello");
+    $('.bs-grid-item img').removeClass("zoom-in");
+    $('.bs-grid-item img').addClass("fade-out");
+    $('.bs-grid-item').fadeOut();
+    $('.back-to-home-text').addClass('')
+  })
 
   $('#load-images').click( function() {
+    $('.bs-grid-item img').removeClass("fade-out");
+    $('.back').addClass("back-fade-in");
     var effect = 'animate zoom-in';
     var item_selector = '.bs-grid-item'
     $('.images-grid').imagesLoaded().progress(function(instance, image) {
@@ -43,7 +52,11 @@ show_text = function() {
   });
 };
 
+(function() {
+  $(".back").hover(function(){
+    $(this).toggleClass("anim");
+  })
+})();
+
 show_text();
-
-
 $('#load-images').delay(3140).fadeIn("100")
