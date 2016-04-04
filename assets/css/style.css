@@ -163,11 +163,31 @@ color: black
 .images-grid{display: table;}
 
 .bs-grid-item {
+  /*padding: 10px;*/
   display: none;
 	float: left;
-	overflow: hidden;
   position: relative;
+  box-sizing: border-box;
+}
 
+.bs-grid-item img {
+  transition: .2s all ease-out;
+}
+
+.bs-grid-item:hover .image-background{
+  opacity: .6;
+  transition: .2s all ease-in;
+}
+
+.bs-grid-item:hover img {
+	-moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	-o-transform: scale(1.1);
+  transition: .2s all ease-in;
+}
+
+.bs-grid-item:hover .port-text {
+  opacity: 1;
 }
 
 .portfolio-image{
@@ -184,29 +204,19 @@ color: black
   height:100%;
 }
 
+.image-encompasser{
+  overflow: hidden;
+}
+
 .image-background{
   position: absolute;
   background: black;
-  height: 100%;
-  width: 100%;
-  top: 0;
+  /*margin: 10px;*/
   opacity: 0;
-}
-
-.bs-grid-item:hover .image-background{
-  opacity: .2;
-}
-
-.bs-grid-item:hover img {
-	-moz-transform: scale(1.1);
-	-webkit-transform: scale(1.1);
-	-o-transform: scale(1.1);
-  transition: .5s all ease;
-}
-
-
-.bs-grid-item:hover .port-text {
-  opacity: 1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
 }
 
 .port-text{
