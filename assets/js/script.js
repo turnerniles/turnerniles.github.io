@@ -1,16 +1,19 @@
 $( function() {
 
-  $('#back-to-home').click( function() {
-    console.log("hello");
-    $('.bs-grid-item img').removeClass("zoom-in");
-    $('.bs-grid-item img').addClass("fade-out");
-    $('.bs-grid-item').fadeOut();
-    $('.back-to-home-text').addClass('')
-  })
+  // $('#back-to-home').click( function() {
+  //   console.log("hello");
+  //   $('.bs-grid-item img').removeClass("zoom-in");
+  //   $('.bs-grid-item img').addClass("fade-out");
+  //   $('.bs-grid-item').fadeOut();
+  //   $('.back-to-home-text').addClass('')
+  // })
 
   $('#load-images').click( function() {
-    $('.bs-grid-item img').removeClass("fade-out");
+    // $('.bs-grid-item img').removeClass("fade-out");
     $('.back').addClass("back-fade-in");
+    $('.name').hide();
+    $('.typed-text').hide();
+    $('.button-container').hide();
     var effect = 'animate zoom-in';
     var item_selector = '.bs-grid-item'
     $('.images-grid').imagesLoaded().progress(function(instance, image) {

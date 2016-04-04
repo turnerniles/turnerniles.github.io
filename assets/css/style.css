@@ -235,6 +235,10 @@ color: black
   text-align: center;
 }
 
+#back-to-home{
+
+}
+
 .fade-out {
         animation: fadeout 1s ease forwards;
 }
@@ -265,6 +269,9 @@ color: black
 }
 .contact-text{
   width: 100%;
+}
+.contact-text a:hover{
+  cursor: pointer;
 }
 
 @keyframes back-fade-in {
