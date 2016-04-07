@@ -24,7 +24,7 @@ body{
 
 .name{
   position: absolute;
-  width: 525px;
+  width: 535px;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
@@ -59,8 +59,6 @@ body{
   left: 50%;
   width: 100%;
   transform: translate(-50%, -50%);
-  font-size:12px;
-  font-weight:300;
   letter-spacing:1px;
   font-size: 60px;
   text-align: center;
@@ -315,4 +313,45 @@ color: black
 .bar {
   -webkit-transition: all 400ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
   transition: all 400ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+
+@media screen and (max-width: 414px){
+  .first-name {
+  font-size: 40px;
+  }
+  .last-name {
+  font-size: 40px;
+  }
+  .typed-text {
+  font-size: 40px;
+  }
+  .name{
+    width: 325px;
+    left: 50%;
+    top: 52%;
+  }
+
+  @keyframes name-1 {
+      from {width: 325px; opacity: 0;}
+      to {width: 225px; opacity: 1;}
+  }
+  @keyframes name-2 {
+    from {top: 52%;}
+    to {top: 42%;}
+  }
+  @keyframes name-3 {
+    from {top: 42%;}
+    to {top: 32%;}
+  }
+
+  @keyframes typed-text-1 {
+    from {top: 65%; opacity: 0;}
+    to {top: 55%; opacity: 1;}
+  }
+
+  @keyframes typed-text-2 {
+    from {top: 55%;}
+    to {top: 45%;}
+  }
 }
